@@ -23,3 +23,8 @@ precio = 11000,
 color = 'azul',
 disponible = true
 where placa = 'PDA-1235';
+
+ALTER TABLE vehiculos
+ADD kilometraje INT;
+
+select * from vehiculos;
