@@ -10,7 +10,7 @@ public class InsertVehiculoTest {
 	private static final Logger log = LogManager.getLogger(InsertVehiculoTest.class); 
 	public static void main(String[] args) {
 		
-		Vehiculo vehiculo = new Vehiculo("PDA-1235", "KIA","Rio", 2023, 20000.99,"Gris", true);
+		Vehiculo vehiculo = new Vehiculo("PDA-1238", "CHANGAN","Alvisn", 2026, 19000.99,"Gris", true);
 		InsertVehiculo.insertar(vehiculo);
 
 	}
