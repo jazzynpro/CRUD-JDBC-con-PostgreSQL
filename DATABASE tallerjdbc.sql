@@ -12,3 +12,14 @@ select * from vehiculos;
 
 INSERT INTO vehiculos (placa, marca, modelo, anio, precio, color, disponible )
 				VALUES('PDA-1234', 'KIA','Soluto',2020,18000,'Blanco',true);
+
+select placa, marca, modelo, anio, precio, color, disponible from vehiculos;
+
+update vehiculos set
+marca = 'KIA',
+modelo = 'Sportage',
+anio = 2012,
+precio = 11000,
+color = 'azul',
+disponible = true
+where placa = 'PDA-1235';
